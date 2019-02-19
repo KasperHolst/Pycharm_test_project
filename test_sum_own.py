@@ -38,6 +38,14 @@ class TestSum(unittest.TestCase):
         result = sum_own(data)
         self.assertEqual(result, 6)
 
+    def test_tuple_float(self):
+        """
+        Test that it can sum a tuple of floats
+        """
+        data = (1.0, 2.5, 3.5)
+        result = sum_own(data)
+        self.assertEqual(result, 7)
+
 
 if __name__ == '__main__':
     unittest.main()
