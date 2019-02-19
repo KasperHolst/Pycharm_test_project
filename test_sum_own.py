@@ -2,6 +2,7 @@ import unittest
 
 from fractions import Fraction
 from my_sum import sum_own
+import numpy as np
 
 
 class TestSum(unittest.TestCase):
